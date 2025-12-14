@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ターミナルフォントの調整 */
+@layer base {
+  body {
+    font-family: 'monospace', 'Menlo', 'Consolas', monospace;
+  }
+}
